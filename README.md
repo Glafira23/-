@@ -3,3 +3,7 @@
 [DashBoard](https://github.com/user-attachments/files/23277021/default.xlsx)  
 [Сводная таблица для задания 6 и визуализация в Google Colab](https://colab.research.google.com/drive/1BoPFH8ywlfDn_O6m8OQLba9E0Oo632BC?usp=sharing)
 [Визулизация сводной таблицы в datawrapper](https://datawrapper.dwcdn.net/WXtxt/2/)
+[Когортный анализ](https://github.com/user-attachments/files/23277505/default.docx)
+[Статистика в экселе](https://github.com/user-attachments/files/23277512/default.xlsx)
+[Курсовая работа по нотациям](https://github.com/user-attachments/files/23277527/Kursovaya_rabota_Korotkova_G_V.1.docx)
+[HTML](https://docs.google.com/document/d/11-TTsDYWGglw0exwJg8Qq_0yH3-qZioxYWJry3FbW5g/edit?usp=sharing)
