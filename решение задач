@@ -1,0 +1,80 @@
+--Задача 1: Сколько треков начинаются на букву A или B?
+SELECT COUNT(track_id)
+FROM track
+WHERE name LIKE 'A%' OR name LIKE 'B%';
+--Ответ: 423
+
+--Задача 2: Из какой страны больше всего клиентов?
+SELECT COUNT(customer_id) AS cnt_customers,
+                country
+FROM customer
+GROUP BY country
+ORDER BY cnt_customers DESC
+LIMIT 1;
+--Ответ: USA
+
+--Задача 3: Сколько альбомов у исполнителя «Iron Maiden»?
+SELECT COUNT(DISTINCT album_id)
+FROM album
+JOIN artist USING (artist_id)
+WHERE name = 'Iron Maiden';
+--Ответ: 21
+
+
+--Задача 4: Найдите все страны, где средний чек пользователей больше 6 долларов. 
+--Сколько таких стран получилось?
+WITH t1 AS
+(SELECT COUNT(DISTINCT country)
+FROM customer
+JOIN invoice USING (customer_id)
+GROUP BY country
+HAVING AVG(total)>6)
+SELECT COUNT (*)
+FROM t1
+--Ответ: 5
+
+--Задача 5: Найдите самый длинный трек исполнителя Led Zeppelin. 
+--Укажите название трека и длину в минутах (формат: «Название: X»)
+SELECT t.name,
+               ROUND(milliseconds/60000) AS track_in_minutes
+FROM track t
+JOIN album USING(album_id)
+JOIN artist a USING(artist_id)
+WHERE a.name = 'Led Zeppelin'
+ORDER BY track_in_minutes DESC
+LIMIT 1;
+--Ответ: Dazed And Confused: 26
+
+--Задача 6: Сводная таблица 2024 и 2025 года, выручка по странам
+WITH t1 AS
+(SELECT billing_country,
+        total,
+        invoice_date
+FROM invoice
+WHERE EXTRACT(YEAR FROM invoice_date) IN (2024,2025))
+SELECT billing_country,
+       SUM(CASE WHEN EXTRACT(YEAR FROM invoice_date) = 2024 THEN total END) AS y2024,
+       SUM(CASE WHEN EXTRACT(YEAR FROM invoice_date) = 2025 THEN total END) AS y2025
+FROM t1
+GROUP BY billing_country
+ORDER BY billing_country;
+
+--Задача 7: Пользователь с айди 3: вывести id заказа, дату заказа, значение чека заказа,
+--накопленную величину заказов, и дельту между текущей накопленной и предыдущей
+WITH t1 AS
+(SELECT total,
+        customer_id,
+        invoice_id,
+        invoice_date,
+        LAG(total) OVER (ORDER BY customer_id) AS lag_total
+FROM invoice
+WHERE customer_id = 3
+GROUP BY customer_id, invoice_id, invoice_date, total)
+
+SELECT invoice_id,
+       invoice_date,
+       SUM(total),
+       SUM(total) OVER (ORDER BY customer_id),
+       SUM(total) OVER (ORDER BY customer_id) - SUM(lag_total) AS delta
+FROM t1
+GROUP BY invoice_id, invoice_date, total, customer_id;
