@@ -7,3 +7,6 @@
 [Статистика в экселе](https://github.com/user-attachments/files/23277512/default.xlsx)
 [Курсовая работа по нотациям](https://github.com/user-attachments/files/23277527/Kursovaya_rabota_Korotkova_G_V.1.docx)
 [HTML](https://docs.google.com/document/d/11-TTsDYWGglw0exwJg8Qq_0yH3-qZioxYWJry3FbW5g/edit?usp=sharing)
+[Нотации](https://drive.google.com/file/d/1lDYrAF4RRM7fgI3H-ciTw4a-R-NuIVBu/view?usp=sharing) 
+[Нотации](https://drive.google.com/file/d/1RsdUxwVEOa0ee9ZdCp5DklY4mmuhszPf/view?usp=sharing)
+[AB-тесты](https://github.com/user-attachments/files/23456251/AB-.xlsx)
