@@ -10,3 +10,5 @@
 [Нотации](https://drive.google.com/file/d/1lDYrAF4RRM7fgI3H-ciTw4a-R-NuIVBu/view?usp=sharing) 
 [Нотации](https://drive.google.com/file/d/1RsdUxwVEOa0ee9ZdCp5DklY4mmuhszPf/view?usp=sharing)
 [AB-тесты](https://github.com/user-attachments/files/23456251/AB-.xlsx)
+[RFM-анализ, машинное обучение](https://colab.research.google.com/drive/12jdCVOoqfR5QxGNO2CstP0XxEIG1CVqq?usp=sharing)
+[Unit-экономика](https://docs.google.com/spreadsheets/d/1_2oEveOI57Xunc38Op8PSxsp9_bKsPCJXRRMzhI_hmM/edit?usp=sharing)
