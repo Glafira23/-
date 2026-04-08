@@ -12,3 +12,7 @@
 [AB-тесты](https://github.com/user-attachments/files/23456251/AB-.xlsx)
 [RFM-анализ, машинное обучение](https://colab.research.google.com/drive/12jdCVOoqfR5QxGNO2CstP0XxEIG1CVqq?usp=sharing)
 [Unit-экономика](https://docs.google.com/spreadsheets/d/1_2oEveOI57Xunc38Op8PSxsp9_bKsPCJXRRMzhI_hmM/edit?usp=sharing)
+[Тз для задания](https://docs.google.com/document/d/1xIGVe_VLdyztauagt6VXWfTzVuEegGBrsSd0LeXSLSM/edit?usp=sharing)
+[Фронтенд](https://docs.google.com/document/d/1wBasZMcwgGmi4BEaGW7HhVr_QAxtUjWOPs7KNzX2NtI/edit?usp=sharing)
+[Фронтенд](https://docs.google.com/document/d/1lTaKtFOJRjTpkMn-cAAxicvWJuAhLrsEHws87NTIi_Q/edit?usp=sharing)
+[Фронтенд](https://docs.google.com/document/d/13pdRHY_WqHzINkII19YYaqseRclHgn6we2W0UHKefas/edit?usp=sharing)
