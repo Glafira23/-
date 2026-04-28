@@ -16,3 +16,4 @@
 [Фронтенд](https://docs.google.com/document/d/1wBasZMcwgGmi4BEaGW7HhVr_QAxtUjWOPs7KNzX2NtI/edit?usp=sharing)
 [Фронтенд](https://docs.google.com/document/d/1lTaKtFOJRjTpkMn-cAAxicvWJuAhLrsEHws87NTIi_Q/edit?usp=sharing)
 [Фронтенд](https://docs.google.com/document/d/13pdRHY_WqHzINkII19YYaqseRclHgn6we2W0UHKefas/edit?usp=sharing)
+[Szhat2.zip](https://github.com/user-attachments/files/27159673/Szhat2.zip)
